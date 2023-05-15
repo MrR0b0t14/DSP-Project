@@ -240,7 +240,6 @@ public class FileTransfer {
 			*/
 			this.outputSocketStream.writeInt(missingPartSize);
 			
-			System.out.println("The client is starting the file transfer.");
 			//Used to skip the first N bytes in case the server already wrote something
 			if(bytesAlreadyWritten >= 0)
 			{
@@ -249,6 +248,7 @@ public class FileTransfer {
 				fin.close();
 				throw new WrongBytesWrittenException();
 			}
+			System.out.println("The client is starting the file transfer.");
 			
 			// sending the File itself if missingPartSize > 0
 			while ((count = fin.read(fileByteArray, 0, missingPartSize > CHUNK_LENGTH ? CHUNK_LENGTH : missingPartSize)) > 0) {
