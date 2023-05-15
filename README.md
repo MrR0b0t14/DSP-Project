@@ -12,6 +12,7 @@ The structure of this repository is the following:
     - "_FileHelper.java_" file: it is a class used for code mantainance and file operations handling.
 
 To clone this repository run:
-    git clone 
+
+    git clone https://github.com/MrR0b0t14/DSP-Project.git
 
 To run the client and the server and to get a more precise idea of their implementation, please read carefully their own **_README.md_** files.
