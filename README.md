@@ -1,4 +1,5 @@
 # Exam-Call-DSP
+This is the project developed for the course of **_Distributed Systems Porgramming_** in 2023 at _Politecnico di Torino_.
 The structure of this repository is the following:
   - "_Client_" folder contains:
     - "_ClientExceptions_" Folder: in which there are all the created Exceptions for the client.
